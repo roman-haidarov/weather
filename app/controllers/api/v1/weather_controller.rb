@@ -2,7 +2,7 @@ module Api
   module V1
     class WeatherController < ApplicationController
       def current
-        data = Score.last
+        data = CurrentScore.call
         
         render json: { action: "Current temperature", data: data }, status: 200
       end

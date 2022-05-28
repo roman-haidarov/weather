@@ -1,0 +1,12 @@
+[
+  {
+    "EpochTime": 1653751020,
+    "Temperature": {
+      "Metric": {
+        "Value": 14.3,
+        "Unit": "C",
+        "UnitType": 17
+      }
+    }
+  }
+]

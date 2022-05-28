@@ -14,7 +14,7 @@ RSpec.describe Api::V1::WeatherController, type: :request do
 
     it "return expected data" do
       expect(json['action']).to eq "Current temperature"
-      expect(json['data']['value']).to eq 5
+      expect(json['data']['value']).to eq 14.3
     end
   end
 
